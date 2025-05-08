@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "user_uart.h": "c",
+        "app_config.h": "c",
+        "board_ac6328a_keyfob_cfg.h": "c",
+        "board_ac6321a_stand_keyboard_cfg.h": "c",
+        "board_ac6321a_mouse_cfg.h": "c",
+        "board_ac632n_demo_cfg.h": "c",
+        "board_ac6321a_demo_cfg.h": "c"
+    }
+}
