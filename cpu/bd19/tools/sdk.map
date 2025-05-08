@@ -1518,10 +1518,10 @@ END GROUP
  *(.LOG_TAG_CONST*)
  *(.rodata*)
  .rodata.str1.1
-                0x01e123d0     0x2d53 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
-                               0x2dc9 (size before relaxing)
- .rodata.cst4   0x01e15123        0xc ..\..\..\..\cpu\bd19\tools\sdk.elf.o
- *fill*         0x01e1512f       0x11 
+                0x01e123d0     0x2d5a ..\..\..\..\cpu\bd19\tools\sdk.elf.o
+                               0x2dd0 (size before relaxing)
+ .rodata.cst4   0x01e1512a        0xc ..\..\..\..\cpu\bd19\tools\sdk.elf.o
+ *fill*         0x01e15136        0xa 
  .rodata        0x01e15140      0xab4 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
  .rodata.cst16  0x01e15bf4       0x50 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
  .rodata.cst32  0x01e15c44       0x20 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
@@ -2428,9 +2428,9 @@ LOAD C:\JL\pi32\q32s-lib\libm.a
 LOAD C:\JL\pi32\q32s-lib\libcompiler-rt.a
 OUTPUT(..\..\..\..\cpu\bd19\tools\sdk.elf elf32-q32s)
 
-.debug_str      0x00000000    0x37f28
- .debug_str     0x00000000    0x37f28 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
-                              0x3b5f7 (size before relaxing)
+.debug_str      0x00000000    0x37f88
+ .debug_str     0x00000000    0x37f88 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
+                              0x3b657 (size before relaxing)
 
 .debug_loc      0x00000000    0x1531f
  .debug_loc     0x00000000    0x1531f ..\..\..\..\cpu\bd19\tools\sdk.elf.o
@@ -2440,10 +2440,10 @@ OUTPUT(..\..\..\..\cpu\bd19\tools\sdk.elf elf32-q32s)
  .debug_abbrev  0x00000f79       0x26 ../../../../cpu/bd19/liba/cpu.a(startup.S.o)
  .debug_abbrev  0x00000f9f       0x28 ../../../../cpu/bd19/liba/system.a(port_asm_mmu.S.o)
 
-.debug_info     0x00000000    0x8e170
- .debug_info    0x00000000    0x8dec6 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
- .debug_info    0x0008dec6      0x15d ../../../../cpu/bd19/liba/cpu.a(startup.S.o)
- .debug_info    0x0008e023      0x14d ../../../../cpu/bd19/liba/system.a(port_asm_mmu.S.o)
+.debug_info     0x00000000    0x8e307
+ .debug_info    0x00000000    0x8e05d ..\..\..\..\cpu\bd19\tools\sdk.elf.o
+ .debug_info    0x0008e05d      0x15d ../../../../cpu/bd19/liba/cpu.a(startup.S.o)
+ .debug_info    0x0008e1ba      0x14d ../../../../cpu/bd19/liba/system.a(port_asm_mmu.S.o)
 
 .debug_ranges   0x00000000     0x3308
  .debug_ranges  0x00000000     0x32e0 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
@@ -2459,19 +2459,19 @@ OUTPUT(..\..\..\..\cpu\bd19\tools\sdk.elf elf32-q32s)
                 0x00000000    0x182f2 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
 
 .debug_pubtypes
-                0x00000000     0xfd63
+                0x00000000     0xfdd2
  .debug_pubtypes
-                0x00000000     0xfd63 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
+                0x00000000     0xfdd2 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
 
 .debug_frame    0x00000000     0x6708
  .debug_frame   0x00000000     0x6708 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
 
-.debug_line     0x00000000    0x33628
- .debug_line    0x00000000    0x33409 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
- .debug_line    0x00033409      0x104 ../../../../cpu/bd19/liba/cpu.a(startup.S.o)
- .debug_line    0x0003350d       0xc3 ../../../../cpu/bd19/liba/system.a(port_asm_mmu.S.o)
- .debug_line    0x000335d0       0x2c ../../../../cpu/bd19/liba/btctrler.a(version.z.o)
- .debug_line    0x000335fc       0x2c ../../../../cpu/bd19/liba/update.a(version.z.o)
+.debug_line     0x00000000    0x337f8
+ .debug_line    0x00000000    0x335d9 ..\..\..\..\cpu\bd19\tools\sdk.elf.o
+ .debug_line    0x000335d9      0x104 ../../../../cpu/bd19/liba/cpu.a(startup.S.o)
+ .debug_line    0x000336dd       0xc3 ../../../../cpu/bd19/liba/system.a(port_asm_mmu.S.o)
+ .debug_line    0x000337a0       0x2c ../../../../cpu/bd19/liba/btctrler.a(version.z.o)
+ .debug_line    0x000337cc       0x2c ../../../../cpu/bd19/liba/update.a(version.z.o)
 
 .debug_aranges  0x00000000       0x48
  .debug_aranges
